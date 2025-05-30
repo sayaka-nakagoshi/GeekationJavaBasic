@@ -11,6 +11,7 @@ public class ForWhile {
             } else if (i % 5 == 0) {
                 System.out.println("Buzz");
             } else {
+                System.out.println(i);
             }
         }
         String[] languages = { "Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript" };
